@@ -8,12 +8,42 @@
 
 import UIKit
 
+//変数の設置
+var list = [String]()
+
 class ViewController3: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        }
+        
+        
+//        テキストフィールドの設定
+    @IBOutlet weak var textFild: UITextField!
+    
+        
+        
+//    追加ボタン
+    @IBAction func tuikaButton(_ sender: Any) {
+        
+//        変数に入力内容を入れる
+     list.append(textFild.text!)
+        
+//        追加bボタンを押したらフィールドをからにする
+        textFild.text = ""
+//        変数の中身をUDに追加する
+        UserDefaults.standard.set( list, forKey: "todolist")
+        
+//        1つ前の画面に戻す
+        self.navigationController?.popViewController(animated: true)
+        
+    }
+    
+    
+        
+        
+        
     }
     
 
@@ -27,4 +57,4 @@ class ViewController3: UIViewController {
     }
     */
 
-}
+

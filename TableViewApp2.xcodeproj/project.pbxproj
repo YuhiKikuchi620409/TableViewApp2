@@ -14,6 +14,9 @@
 		4B01813822A8E4E700726600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B01813622A8E4E700726600 /* LaunchScreen.storyboard */; };
 		4B01814322A8E4E800726600 /* TableViewApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01814222A8E4E800726600 /* TableViewApp2Tests.swift */; };
 		4B01814E22A8E4E800726600 /* TableViewApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01814D22A8E4E800726600 /* TableViewApp2UITests.swift */; };
+		4B01815C22A8EB5A00726600 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01815B22A8EB5A00726600 /* TableViewController2.swift */; };
+		4B01815D22A8F7DC00726600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01812D22A8E4E700726600 /* AppDelegate.swift */; };
+		4B01815F22A95F7200726600 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01815E22A95F7200726600 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,8 @@
 		4B01814922A8E4E800726600 /* TableViewApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B01814D22A8E4E800726600 /* TableViewApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewApp2UITests.swift; sourceTree = "<group>"; };
 		4B01814F22A8E4E800726600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B01815B22A8EB5A00726600 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		4B01815E22A95F7200726600 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +104,8 @@
 			children = (
 				4B01812D22A8E4E700726600 /* AppDelegate.swift */,
 				4B01812F22A8E4E700726600 /* ViewController.swift */,
+				4B01815B22A8EB5A00726600 /* TableViewController2.swift */,
+				4B01815E22A95F7200726600 /* ViewController3.swift */,
 				4B01813122A8E4E700726600 /* Main.storyboard */,
 				4B01813422A8E4E700726600 /* Assets.xcassets */,
 				4B01813622A8E4E700726600 /* LaunchScreen.storyboard */,
@@ -258,6 +265,8 @@
 			files = (
 				4B01813022A8E4E700726600 /* ViewController.swift in Sources */,
 				4B01812E22A8E4E700726600 /* AppDelegate.swift in Sources */,
+				4B01815F22A95F7200726600 /* ViewController3.swift in Sources */,
+				4B01815C22A8EB5A00726600 /* TableViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B01815D22A8F7DC00726600 /* AppDelegate.swift in Sources */,
 				4B01814322A8E4E800726600 /* TableViewApp2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
